@@ -2,11 +2,12 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/eliseohh.github.io",
   siteMetadata: {
-    title: `Personal Blog`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Eliseo Henriquez`,
+    siteUrl: `https://eliseohh.github.io`
   },
-  plugins: ["gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
